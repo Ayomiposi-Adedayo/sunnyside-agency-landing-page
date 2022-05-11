@@ -564,7 +564,7 @@ div > div > a.bbb {
     height: 600px;
     background-image: url(images/desktop/image-photography.jpg);
     background-repeat: no-repeat;
-    background-position: 0% -1rem;
+    background-position: 0% -0rem;
     background-size: cover;
   }
   .photo-h {
@@ -659,11 +659,11 @@ div > div > a.bbb {
   padding: 0% !important;
 }
 
-.header-testimonials {
-  color: #23303e;
-  color: #5a636c;
-  color: #818498;
+.header-testimonials, .card-subtitle {
   color: #a7abae;
+}
+
+.header-testimonials {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -675,20 +675,24 @@ div > div > a.bbb {
 }
 
 .Card-image {
-  max-width: 40%;
+  max-width: 30%;
   margin-bottom: 2rem;
 }
 
 .card-text {
-  color: #818498;
+  color: #5a636c;
+  font-weight: 600;
 }
 
 .card-title {
-  color: orange;
+  color: #23303e;
+  font-family: 'Fraunces', serif;
+  margin-top: 2rem;
 }
 
 .card-subtitle {
-  color: red;
+  font-size: .9rem;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
@@ -700,13 +704,13 @@ div > div > a.bbb {
     margin-bottom: 3rem;
   }
   .card-text {
-    color: #543d13;
+    font-size: 1rem;
+    height: 9rem;
   }
   .card-title {
-    color: orange;
-  }
-  .card-subtitle {
-    color: red;
+    color: #23303e;
+    font-family: 'Fraunces', serif;
+    margin-top: 2rem;
   }
 }
 
@@ -718,13 +722,170 @@ div > div > a.bbb {
     max-width: 40%;
   }
   .card-text {
-    color: #543d13;
+    height: 120px;
   }
-  .card-title {
-    color: orange;
+}
+
+.milkbottles {
+  height: 12rem;
+  background-image: url(images/mobile/image-gallery-milkbottles.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.orange {
+  height: 12rem;
+  background-image: url(images/mobile/image-gallery-orange.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.cone {
+  height: 12rem;
+  background-image: url(images/mobile/image-gallery-cone.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.sugarcubes {
+  height: 12rem;
+  background-image: url(images/mobile/image-gallery-sugar-cubes.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .milkbottles {
+    height: 16rem;
+    background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
   }
-  .card-subtitle {
-    color: red;
+  .orange {
+    height: 16rem;
+    background-image: url(images/desktop/image-gallery-orange.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+  .cone {
+    height: 16rem;
+    background-image: url(images/desktop/image-gallery-cone.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+  .sugarcubes {
+    height: 16rem;
+    background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .milkbottles {
+    height: 26rem;
+    background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+  .orange {
+    height: 26rem;
+    background-image: url(images/desktop/image-gallery-orange.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+  .cone {
+    height: 26rem;
+    background-image: url(images/desktop/image-gallery-cone.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+  .sugarcubes {
+    height: 26rem;
+    background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+}
+
+.footer-header {
+  font-size: 2rem;
+  margin: 3rem 0rem;
+  font-weight: 800;
+  color: #297565;
+}
+
+footer.container-fluid > div > ul {
+  margin-bottom: 2rem;
+}
+
+footer.container-fluid > div > ul > li {
+  display: inline;
+  margin: 5%;
+}
+
+footer.container-fluid > div > ul > li > a {
+  color: #458c7e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer.container-fluid > div > ul > li > a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+footer.container-fluid > div > div.footer-icon-links > a {
+  margin: 3%;
+  color: rgba(255, 0, 0, 0);
+}
+
+footer.container-fluid > div > div.footer-icon-links > a > img {
+  max-width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-header {
+    font-size: 2rem;
+    margin: 2rem 0rem;
+    font-weight: 800;
+    color: #297565;
+  }
+  footer.container-fluid > div > ul {
+    margin-bottom: 2rem;
+  }
+  footer.container-fluid > div > ul > li {
+    display: inline;
+    margin: 2%;
+    font-size: .9rem;
+  }
+  footer.container-fluid > div > ul > li > a {
+    color: #458c7e;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  footer.container-fluid > div > div.footer-icon-links > a {
+    margin: 1%;
+    color: rgba(255, 0, 0, 0);
+  }
+  footer.container-fluid > div > div.footer-icon-links > a > img {
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
