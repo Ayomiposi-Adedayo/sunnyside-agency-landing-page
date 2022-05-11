@@ -428,7 +428,7 @@ div > div > a.bbb {
 
 .grap-p {
   color: #25564b;
-  width: 80%;
+  width: 20%;
   margin: auto;
   font-weight: 600 !important;
 }
@@ -584,8 +584,8 @@ div > div > a.bbb {
     padding-right: 6% !important;
     margin: 0;
     top: -50%;
-    -webkit-transform: translateY(5rem);
-            transform: translateY(5rem);
+    -webkit-transform: translateY(6rem);
+            transform: translateY(6rem);
   }
   .header-white {
     font-size: 1.3rem;
