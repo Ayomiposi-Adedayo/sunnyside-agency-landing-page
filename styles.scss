@@ -788,7 +788,7 @@ margin-top: -10%;
 }
 
 .Card-image {
-max-width: 30%;
+max-width: 22%;
 margin-bottom: 2rem;
 }
 
@@ -826,12 +826,12 @@ padding: 10%;
 
 .Card-image {
 max-width: 40%;
-margin-bottom: 3rem;
+margin-bottom: 2.5rem;
 
 }
 .card-text {
 font-size: 1rem;
-
+width: 100%;
 height: 9rem;
 
 
@@ -998,6 +998,7 @@ footer.container-fluid>div>ul>li>a {
   color: hsl(168, 34%, 41%);
   text-decoration: none;
   font-weight: 600;
+  font-size: 1rem;
 }
 
 footer.container-fluid>div>ul>li>a:hover {
