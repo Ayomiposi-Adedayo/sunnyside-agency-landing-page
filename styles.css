@@ -598,6 +598,10 @@ div > div > a.bbb {
 }
 
 @media screen and (min-width: 1920px) {
+  .p-main {
+    width: 60%;
+    margin: auto;
+  }
   .gr-height-m {
     height: 600px;
     background-position: 0rem -1rem;
@@ -626,7 +630,7 @@ div > div > a.bbb {
   }
 }
 
-@media screen and (min-width: 2500px) {
+@media screen and (min-width: 2100px) {
   .div-transform {
     width: 80%;
     padding: 0% !important;
@@ -696,6 +700,11 @@ div > div > a.bbb {
 }
 
 @media screen and (min-width: 768px) {
+  .header-testimonials {
+    margin-top: 10% !important;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
   .card {
     padding: 10%;
   }
