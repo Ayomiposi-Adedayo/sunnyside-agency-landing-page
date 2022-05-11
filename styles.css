@@ -122,9 +122,6 @@ div > ul > li > a.nav-link:hover {
     font-family: "Fraunces", serif;
     font-weight: 700;
     background-color: #fad400;
-    padding: 20% 30%;
-    margin: 10% 0%;
-    margin-left: -28% !important;
   }
   .nav-link-white {
     color: white;
