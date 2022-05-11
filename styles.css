@@ -454,6 +454,23 @@ div > div > a.bbb {
   margin: auto;
 }
 
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .gr-height-m {
+    height: 500px;
+  }
+  .ph-height-m {
+    height: 500px;
+  }
+  .grap-h {
+    color: #25564b;
+    padding-top: 23rem;
+  }
+  .photo-h {
+    color: #19536b;
+    padding-top: 23rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .gr-height-m {
     background-image: url(images/desktop/image-graphic-design.jpg);
@@ -491,10 +508,10 @@ div > div > a.bbb {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1100px) {
   .gr-height-m {
     background-image: url(images/desktop/image-graphic-design.jpg);
-    height: 400px;
+    height: 450px;
     background-repeat: no-repeat;
     background-position: 0rem -1rem;
     background-size: cover;
@@ -510,7 +527,7 @@ div > div > a.bbb {
   }
   .ph-height-m {
     background-image: url(images/desktop/image-photography.jpg);
-    height: 400px;
+    height: 450px;
     background-repeat: no-repeat;
     background-position: 0rem -1rem;
     background-size: cover;
@@ -578,5 +595,67 @@ div > div > a.bbb {
     width: 90%;
     margin: auto;
   }
+}
+
+@media screen and (min-width: 1920px) {
+  .gr-height-m {
+    height: 600px;
+    background-position: 0rem -1rem;
+  }
+  .ph-height-m {
+    height: 600px;
+    background-position: 0rem -1rem;
+  }
+  .grap-h {
+    color: #25564b;
+    padding-top: 29rem;
+  }
+  .photo-h {
+    color: #19536b;
+    padding-top: 29rem;
+  }
+  .div-transform {
+    width: 80%;
+    padding: 0% !important;
+    padding-left: 15% !important;
+    padding-right: 6% !important;
+    margin: 0;
+    top: -50%;
+    -webkit-transform: translateY(8rem);
+            transform: translateY(8rem);
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .div-transform {
+    width: 80%;
+    padding: 0% !important;
+    padding-left: 15% !important;
+    padding-right: 6% !important;
+    margin: 0;
+    top: -50%;
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
+  }
+  .gr-height-m {
+    height: 600px;
+    background-position: 0rem -8rem;
+  }
+  .ph-height-m {
+    height: 600px;
+    background-position: 0rem -8rem;
+  }
+  .grap-h {
+    color: #25564b;
+    padding-top: 28rem;
+  }
+  .photo-h {
+    color: #19536b;
+    padding-top: 28rem;
+  }
+}
+
+.card-p {
+  padding: 0% !important;
 }
 /*# sourceMappingURL=styles.css.map */

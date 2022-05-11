@@ -486,7 +486,27 @@ width: 80%;
 margin: auto;
 
 }
-    
+ 
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .gr-height-m{
+        height: 500px;
+    }
+    .ph-height-m{
+        height: 500px;
+    }
+
+    .grap-h {
+color: hsl(167, 40%, 24%);
+padding-top: 23rem;
+
+}
+.photo-h {
+color: hsl(198, 62%, 26%);
+padding-top: 23rem;
+}
+}
+
 
 @media screen and (min-width: 768px) {
 .gr-height-m{
@@ -538,10 +558,10 @@ margin: auto;
 
 
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1100px) {
 .gr-height-m{
 background-image: url(images/desktop/image-graphic-design.jpg);
-height: 400px;
+height: 450px;
 background-repeat: no-repeat;
 background-position: 0rem -1rem;
 background-size: cover;
@@ -563,7 +583,7 @@ margin: auto;
 
 .ph-height-m{
 background-image: url(images/desktop/image-photography.jpg);
-height: 400px;
+height: 450px;
 background-repeat: no-repeat;
 background-position: 0rem -1rem;
 background-size: cover;
@@ -634,7 +654,6 @@ margin: auto;
 
 @media screen and (max-width: 767px) {
     
-
 .div-transform {
 padding: 0%!important;
 padding-left: 4% !important;
@@ -655,4 +674,79 @@ margin: 0;
  width: 90%;
  margin: auto;
 }
+}
+
+@media screen and (min-width: 1920px) {
+
+ .gr-height-m{
+        height: 600px;
+        background-position: 0rem -1rem;
+    }
+ .ph-height-m{
+        height: 600px;
+        background-position: 0rem -1rem;
+    }
+
+ .grap-h {
+color: hsl(167, 40%, 24%);
+padding-top: 29rem;
+
+}
+.photo-h {
+color: hsl(198, 62%, 26%);
+padding-top: 29rem;
+}
+
+.div-transform {
+    width: 80%;
+padding: 0%!important;
+padding-left: 15% !important;
+padding-right: 6% !important;
+margin: 0;
+//   position: absolute;
+  top: -50%;
+  -ms-transform: translateY(-25%);
+  transform: translateY(8rem);
+}
+
+}
+
+
+
+@media screen and (min-width: 2500px) {
+    
+.div-transform {
+    width: 80%;
+padding: 0%!important;
+padding-left: 15% !important;
+padding-right: 6% !important;
+margin: 0;
+//   position: absolute;
+  top: -50%;
+  -ms-transform: translateY(-25%);
+  transform: translateY(5rem);
+}
+
+ .gr-height-m{
+        height: 600px;
+        background-position: 0rem -8rem;
+    }
+ .ph-height-m{
+        height: 600px;
+        background-position: 0rem -8rem;
+    }
+
+ .grap-h {
+color: hsl(167, 40%, 24%);
+padding-top: 28rem;
+
+}
+.photo-h {
+color: hsl(198, 62%, 26%);
+padding-top: 28rem;
+}
+}
+
+.card-p {
+  padding: 0% !important;
 }
