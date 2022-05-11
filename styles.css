@@ -10,6 +10,17 @@ body {
   font-size: 18px;
 }
 
+.new-div {
+  height: 400px !important;
+}
+
+@media screen and (min-width: 1440px) {
+  .new-div {
+    height: 600px !important;
+    position: relative;
+  }
+}
+
 header {
   height: auto;
 }
@@ -31,7 +42,6 @@ h1 {
   font-family: "Fraunces", serif;
   width: 90%;
   margin: auto;
-  position: relative;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
@@ -255,8 +265,10 @@ div > ul > li > a.nav-link:hover {
 }
 
 .img-fluidd {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -545,6 +557,25 @@ div > div > a.bbb {
   .photo-p {
     color: #19536b;
     width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .div-transform {
+    padding: 0% !important;
+    padding-left: 4% !important;
+    padding-right: 6% !important;
+    margin: 0;
+    top: -50%;
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
+  }
+  .header-white {
+    font-size: 1.8rem;
+  }
+  .p-main {
+    width: 90%;
     margin: auto;
   }
 }
