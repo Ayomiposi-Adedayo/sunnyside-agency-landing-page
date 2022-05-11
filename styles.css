@@ -683,6 +683,8 @@ div > div > a.bbb {
 .card-text {
   color: #5a636c;
   font-weight: 600;
+  width: 80%;
+  margin: auto;
 }
 
 .card-title {
@@ -892,6 +894,13 @@ footer.container-fluid > div > div.footer-icon-links > a > img {
     max-width: 100%;
     margin-top: 2rem;
     margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-subtitle {
+    font-size: .7rem;
+    font-weight: 600;
   }
 }
 /*# sourceMappingURL=styles.css.map */

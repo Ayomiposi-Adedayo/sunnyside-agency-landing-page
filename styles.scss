@@ -791,15 +791,19 @@ margin-top: -10%;
 max-width: 30%;
 margin-bottom: 2rem;
 }
+
 .card-text {
   color: hsl(213, 9%, 39%);
   font-weight: 600;
+  width: 80%;
+  margin: auto;
 }
 .card-title {
 color: hsl(212, 27%, 19%);
 font-family: 'Fraunces', serif;
 margin-top: 2rem;
 }
+
 .card-subtitle {
   @extend %very-light-ash;
   font-size: .9rem;
@@ -1050,4 +1054,9 @@ footer.container-fluid>div>div.footer-icon-links>a>img {
 
 }
 
-
+@media screen and (max-width: 767px) {
+  .card-subtitle {
+  font-size: .7rem;
+  font-weight: 600;
+}
+}
