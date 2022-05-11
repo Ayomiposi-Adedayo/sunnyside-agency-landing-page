@@ -588,11 +588,12 @@ div > div > a.bbb {
             transform: translateY(5rem);
   }
   .header-white {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
   .p-main {
-    width: 90%;
+    width: 80%;
     margin: auto;
+    font-size: .8rem;
   }
 }
 
