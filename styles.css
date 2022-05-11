@@ -636,8 +636,8 @@ div > div > a.bbb {
     padding-right: 6% !important;
     margin: 0;
     top: -50%;
-    -webkit-transform: translateY(5rem);
-            transform: translateY(5rem);
+    -webkit-transform: translateY(7rem);
+            transform: translateY(7rem);
   }
   .gr-height-m {
     height: 650px;
