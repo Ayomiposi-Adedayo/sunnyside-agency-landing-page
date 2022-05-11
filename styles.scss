@@ -750,3 +750,77 @@ padding-top: 28rem;
 .card-p {
   padding: 0% !important;
 }
+
+.header-testimonials {
+
+      color: hsl(212, 27%, 19%);
+      color: hsl(213, 9%, 39%);
+      color: hsl(232, 10%, 55%);
+      color: hsl(210, 4%, 67%);
+      font-size: 1rem;
+      font-weight:300 ;
+
+}
+
+.card {
+padding: 10%;
+border-color: rgba(250, 235, 215, 0);
+margin-top: -10%;
+}
+
+.Card-image {
+max-width: 40%;
+margin-bottom: 2rem;
+}
+.card-text {
+ color: hsl(232, 10%, 55%);
+}
+.card-title {
+color: orange;
+}
+.card-subtitle {
+  color: red;
+}
+
+
+@media screen and (min-width: 768px) {
+.card {
+padding: 10%;
+
+}
+
+.Card-image {
+max-width: 40%;
+margin-bottom: 3rem;
+
+}
+.card-text {
+color: rgb(84, 61, 19);
+}
+.card-title {
+color: orange;
+}
+.card-subtitle {
+  color: red;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.card {
+padding: 10%;
+
+}
+
+.Card-image {
+max-width: 40%
+}
+.card-text {
+color: rgb(84, 61, 19);
+}
+.card-title {
+color: orange;
+}
+.card-subtitle {
+  color: red;
+}
+}
