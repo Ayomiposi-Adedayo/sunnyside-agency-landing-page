@@ -433,6 +433,7 @@ div > div > a.bbb {
   color: #25564b;
   width: 80%;
   margin: auto;
+  font-weight: 600 !important;
 }
 
 .ph-height-m {
@@ -452,6 +453,7 @@ div > div > a.bbb {
   color: #19536b;
   width: 80%;
   margin: auto;
+  font-weight: 600 !important;
 }
 
 @media screen and (min-width: 600px) and (max-width: 767px) {
@@ -642,20 +644,20 @@ div > div > a.bbb {
             transform: translateY(5rem);
   }
   .gr-height-m {
-    height: 600px;
+    height: 650px;
     background-position: 0rem -8rem;
   }
   .ph-height-m {
-    height: 600px;
+    height: 650px;
     background-position: 0rem -8rem;
   }
   .grap-h {
     color: #25564b;
-    padding-top: 28rem;
+    padding-top: 30rem;
   }
   .photo-h {
     color: #19536b;
-    padding-top: 28rem;
+    padding-top: 30rem;
   }
 }
 
