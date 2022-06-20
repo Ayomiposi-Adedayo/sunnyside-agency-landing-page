@@ -96,6 +96,8 @@ div > ul > li > a.nav-link {
 }
 
 div > ul > li > a.nav-link:hover {
+  color: black;
+  font-weight: bold;
   text-decoration: underline;
   -webkit-transition: all 7s 0s ease;
   -webkit-transition: all 0.7s 0s ease;
@@ -356,7 +358,7 @@ div > div > a.bbb {
   }
   div.aaa > a {
     color: #23303e;
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-family: "Fraunces", serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -487,7 +489,7 @@ div > div > a.bbb {
   .grap-p {
     color: #25564b;
     width: 60%;
-    font-size: .8rem;
+    font-size: 0.8rem;
     margin: auto;
   }
   .ph-height-m {
@@ -504,7 +506,7 @@ div > div > a.bbb {
   .photo-p {
     color: #19536b;
     width: 60%;
-    font-size: .8rem;
+    font-size: 0.8rem;
     margin: auto;
   }
 }
@@ -595,7 +597,7 @@ div > div > a.bbb {
   .p-main {
     width: 80%;
     margin: auto;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -659,7 +661,7 @@ div > div > a.bbb {
 
 .card-p {
   padding: 0% !important;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .header-testimonials, .card-subtitle {
@@ -691,12 +693,12 @@ div > div > a.bbb {
 
 .card-title {
   color: #23303e;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   margin-top: 2rem;
 }
 
 .card-subtitle {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 
@@ -720,7 +722,7 @@ div > div > a.bbb {
   }
   .card-title {
     color: #23303e;
-    font-family: 'Fraunces', serif;
+    font-family: "Fraunces", serif;
     margin-top: 2rem;
   }
 }
@@ -857,6 +859,8 @@ footer.container-fluid > div > ul > li > a {
 footer.container-fluid > div > ul > li > a:hover {
   color: white;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 footer.container-fluid > div > div.footer-icon-links > a {
@@ -868,6 +872,13 @@ footer.container-fluid > div > div.footer-icon-links > a > img {
   max-width: 100%;
   margin-top: 2rem;
   margin-bottom: 3rem;
+}
+
+footer.container-fluid > div > div.footer-icon-links > a > img:hover {
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 @media screen and (min-width: 768px) {
@@ -883,7 +894,7 @@ footer.container-fluid > div > div.footer-icon-links > a > img {
   footer.container-fluid > div > ul > li {
     display: inline;
     margin: 2%;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   footer.container-fluid > div > ul > li > a {
     color: #458c7e;
@@ -903,7 +914,7 @@ footer.container-fluid > div > div.footer-icon-links > a > img {
 
 @media screen and (max-width: 767px) {
   .card-subtitle {
-    font-size: .7rem;
+    font-size: 0.7rem;
     font-weight: 600;
   }
 }
